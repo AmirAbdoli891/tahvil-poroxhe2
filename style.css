@@ -183,3 +183,61 @@ transition:1s;
     padding-bottom: 50px;
     font-size: 2.5rem;
  }
+ .card-1{
+margin-left: 20px;
+margin-right:20px ;
+    border: 1px solid #eb592d ;
+    overflow: hidden;
+    margin-bottom: 20px;
+ }
+ .card-1-img{
+     width: 100%;
+ }
+ .card-1-img:hover{
+    transform: scale(1.0484574);
+    transition: 0.3s;
+ }
+ .card-1-ti{
+    padding-left: 150px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-size:30px ;
+ }
+ .card-1-pa{
+    margin: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    color: #575757;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-bottom: -10px;
+ }
+ .card-2{
+margin-left: 20px;
+margin-right:20px ;
+    border: 1px solid #eb592d ;
+    overflow: hidden;
+    margin-bottom: 130px;
+ }
+ .meghdar{
+    padding-left: 20px ;
+    font-size: 30px;
+margin-bottom: 50px;
+ }
+ .tozih-st{
+    padding-left: 20px;
+    color: #eb592d;
+    font-size: 30px;
+ }
+ .price{
+    display: flex;
+align-items: center;
+ }
+ .price-h2{
+    display: flex;
+   padding-left: 20px;
+
+ }
+.price-img{
+    padding-left: 20px;
+    padding-top: 20px;
+} 
