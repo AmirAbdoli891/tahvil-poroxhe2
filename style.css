@@ -1,0 +1,112 @@
+
+body{ 
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 30rem;
+}
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+.img-head{
+background-image: url("./images/banner.png");
+width: 100%;
+height: 600px;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+shadow: #4c4c4c;
+}
+.logo{
+    display: flex;
+width: 70px;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 93%;
+    left: 5%;
+}
+.back-menu{
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    background-color: #4c4c4c;
+    width: 480px;
+    height: 60px;
+padding-right: 70px;
+}
+.menu{
+   position:relative ;
+   left: 80%;
+   top: 7%;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    background-color: #222;
+    width: 150px;
+    direction: rtl;
+        
+}
+.hamber{
+   display: flex;
+    width: 30px;
+    height: 50px;
+    align-items: center;
+ justify-content: space-around; 
+ }
+ .back-menu:hover{
+
+    color: #4c4c4c;
+    width: 480px;
+    height: 250px;
+     
+ }
+ .link{
+   color: blanchedalmond;
+   position: absolute;
+   top: 30%;
+   opacity: 0;
+ }
+ .hov{
+    background-color: #4c4c4c;
+    display: block;
+    padding: 10px;
+ }
+ .link:hover{
+    transform: translateY(-12px);
+    opacity: 10;
+ }
+.head-matn{
+
+padding-top: 100px;
+}
+.pad{
+font-size: larger;
+    padding-top:30px ;
+    color: blanchedalmond;
+    padding-bottom: 30px;
+}
+.tozih{
+font-family:'Times New Roman', Times, serif ;
+    text-shadow: #4c4c4c;
+}
+.button{
+    padding-top:30px ;
+    padding: 19px 43px 23px 43px;
+    background:#eb592d;
+    color: blanchedalmond;
+    border: 1px solid transparent;
+    font-size: 16px;
+}
+
+ 
